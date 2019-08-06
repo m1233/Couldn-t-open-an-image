@@ -52,7 +52,7 @@ class Game:
 
             if event.type == self.SPAWNENEMIES:
                 num = random.randint(0,len(self.spawnpoints))
-                #print(num)
+                print(num)
                 for i in range(5):
                     if num != i:
                         print(i)
